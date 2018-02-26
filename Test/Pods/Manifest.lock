@@ -1,0 +1,36 @@
+PODS:
+  - geqiangbaoLib2 (0.0.3)
+  - GQBLib1 (0.1.0)
+  - GQBPhoneNumTF (1.0.0)
+
+DEPENDENCIES:
+  - geqiangbaoLib2 (from `https://github.com/shuyangxiaobao/geqiangbaoLib2.git`, branch `master`, tag `0.0.3`)
+  - GQBLib1 (from `https://github.com/shuyangxiaobao/GQBLib1.git`, branch `master`)
+  - GQBPhoneNumTF (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  geqiangbaoLib2:
+    :branch: master
+    :git: https://github.com/shuyangxiaobao/geqiangbaoLib2.git
+    :tag: 0.0.3
+  GQBLib1:
+    :branch: master
+    :git: https://github.com/shuyangxiaobao/GQBLib1.git
+
+CHECKOUT OPTIONS:
+  geqiangbaoLib2:
+    :commit: 0c1833bc58306f9a90ef9b6e063e0cc375716248
+    :git: https://github.com/shuyangxiaobao/geqiangbaoLib2.git
+    :tag: 0.0.3
+  GQBLib1:
+    :commit: 376632c494d31da76013815beff96ac83f6a2172
+    :git: https://github.com/shuyangxiaobao/GQBLib1.git
+
+SPEC CHECKSUMS:
+  geqiangbaoLib2: f8b3d7adf5b2897f6db6e6c4b8678e756b08db7c
+  GQBLib1: 7a2012ae14cba586b8fd4c3afc337e597b61d62f
+  GQBPhoneNumTF: e37f437316e560378fe03ed8c5c9d6bf1f8eac71
+
+PODFILE CHECKSUM: 3791bac64448aa9dddf33dd040295659bc882160
+
+COCOAPODS: 1.4.0
