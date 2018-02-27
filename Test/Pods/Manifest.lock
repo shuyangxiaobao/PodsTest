@@ -14,51 +14,22 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
-  - geqiangbaoLib2 (0.0.3)
-  - gqbHttpEngine (0.1.0)
-  - GQBLib1 (0.1.0)
-  - GQBPhoneNumTF (1.0.0)
+  - gqbaoHttpEngine (1.0.11):
+    - AFNetworking (~> 3.2.0)
+    - gqbaoHttpEngine/CustomView (= 1.0.11)
+    - gqbaoHttpEngine/XML (= 1.0.11)
+  - gqbaoHttpEngine/CustomView (1.0.11):
+    - AFNetworking (~> 3.2.0)
+  - gqbaoHttpEngine/XML (1.0.11):
+    - AFNetworking (~> 3.2.0)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.2.0)
-  - geqiangbaoLib2 (from `https://github.com/shuyangxiaobao/geqiangbaoLib2.git`, branch `master`, tag `0.0.3`)
-  - gqbHttpEngine (from `https://github.com/shuyangxiaobao/gqbHttpEngine.git`, branch `master`, tag `0.1.0`)
-  - GQBLib1 (from `https://github.com/shuyangxiaobao/GQBLib1.git`, branch `master`)
-  - GQBPhoneNumTF (~> 1.0.0)
-
-EXTERNAL SOURCES:
-  geqiangbaoLib2:
-    :branch: master
-    :git: https://github.com/shuyangxiaobao/geqiangbaoLib2.git
-    :tag: 0.0.3
-  gqbHttpEngine:
-    :branch: master
-    :git: https://github.com/shuyangxiaobao/gqbHttpEngine.git
-    :tag: 0.1.0
-  GQBLib1:
-    :branch: master
-    :git: https://github.com/shuyangxiaobao/GQBLib1.git
-
-CHECKOUT OPTIONS:
-  geqiangbaoLib2:
-    :commit: 0c1833bc58306f9a90ef9b6e063e0cc375716248
-    :git: https://github.com/shuyangxiaobao/geqiangbaoLib2.git
-    :tag: 0.0.3
-  gqbHttpEngine:
-    :commit: 75a5bf164fd00f6ebfd8e95f73447f8eb21f32d1
-    :git: https://github.com/shuyangxiaobao/gqbHttpEngine.git
-    :tag: 0.1.0
-  GQBLib1:
-    :commit: 376632c494d31da76013815beff96ac83f6a2172
-    :git: https://github.com/shuyangxiaobao/GQBLib1.git
+  - gqbaoHttpEngine (~> 1.0.11)
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
-  geqiangbaoLib2: f8b3d7adf5b2897f6db6e6c4b8678e756b08db7c
-  gqbHttpEngine: a0d66fe6c89b0bf5d0c39597d5e5aeb4a6ce13cb
-  GQBLib1: 7a2012ae14cba586b8fd4c3afc337e597b61d62f
-  GQBPhoneNumTF: e37f437316e560378fe03ed8c5c9d6bf1f8eac71
+  gqbaoHttpEngine: 8c4ec0fcfec22ab9e4d06ea793d2cf7534923d30
 
-PODFILE CHECKSUM: 207e94224cd7d38b3537663c74e4e6d151507fa1
+PODFILE CHECKSUM: e834c25badd6909381de6172084c3f0951a715e9
 
 COCOAPODS: 1.4.0

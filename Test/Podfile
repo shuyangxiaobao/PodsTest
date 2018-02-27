@@ -8,31 +8,36 @@
 
 target 'Test' do
 
-    pod 'GQBPhoneNumTF', '~> 1.0.0'
-    pod 'GQBLib1', :git => 'https://github.com/shuyangxiaobao/GQBLib1.git',
-    :branch => 'master'
-    pod 'geqiangbaoLib2', :git => 'https://github.com/shuyangxiaobao/geqiangbaoLib2.git',
-    :branch => 'master' , :tag => '0.0.3'
-#    pod 'AFNetworking', '~> 3.2.0'
+#    pod 'GQBPhoneNumTF', '~> 1.0.0'
+#    pod 'GQBLib1', :git => 'https://github.com/shuyangxiaobao/GQBLib1.git',
+#    :branch => 'master'
+#    pod 'geqiangbaoLib2', :git => 'https://github.com/shuyangxiaobao/geqiangbaoLib2.git',
+#    :branch => 'master' , :tag => '0.0.3'
+##    pod 'AFNetworking', '~> 3.2.0'
+#
+#    pod 'gqbHttpEngine', :git => 'https://github.com/shuyangxiaobao/gqbHttpEngine.git',
+#    :branch => 'master' , :tag => '0.5.0'
 
-    pod 'gqbHttpEngine', :git => 'https://github.com/shuyangxiaobao/gqbHttpEngine.git',
-    :branch => 'master' , :tag => '0.1.0'
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-#    pod 'geqiangbao-PriHttpEngine', :git => 'https://github.com/shuyangxiaobao/geqiangbaoLib2.git', :branch => 'master' , :tag => '0.1.0'
+#  pod 'geqiangbaoPriHttpEngine'
+#  pod 'gqbaoHttpEngine' , '~> 1.0.10'
+#  pod 'geqiangbaoPriHttpEngine'
 
-#source 'https://github.com/shuyangxiaobao/MySpecs.git'
-#pod 'geqiangbaoLib2','~> 0.0.3'
+  
+# pod 'AFNetworking/Reachability'
+
+#pod 'AFNetworking/Serialization'
+
+#  pod 'AFNetworking'
+
+#    pod 'gqbaoHttpEngine', :git => 'https://github.com/shuyangxiaobao/gqbaoHttpEngine.git',
+#    :branch => 'master'
+
+  
+  
+#  pod 'gqbaoHttpEngine', :git => 'https://github.com/shuyangxiaobao/gqbHttpEngine.git', :branch => 'master' , :tag => '1.0.11'
+
+pod 'gqbaoHttpEngine', '~> 1.0.11' 
 
 
  end
