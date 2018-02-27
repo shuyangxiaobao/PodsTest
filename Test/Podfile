@@ -8,13 +8,28 @@
 
 target 'Test' do
 
-
     pod 'GQBPhoneNumTF', '~> 1.0.0'
+    pod 'GQBLib1', :git => 'https://github.com/shuyangxiaobao/GQBLib1.git',
+    :branch => 'master'
+    pod 'geqiangbaoLib2', :git => 'https://github.com/shuyangxiaobao/geqiangbaoLib2.git',
+    :branch => 'master' , :tag => '0.0.3'
+#    pod 'AFNetworking', '~> 3.2.0'
 
-
-    pod 'GQBLib1', :git => 'https://github.com/shuyangxiaobao/GQBLib1.git', :branch => 'master'
-    pod 'geqiangbaoLib2', :git => 'https://github.com/shuyangxiaobao/geqiangbaoLib2.git', :branch => 'master' , :tag => '0.0.3'
-
+    pod 'gqbHttpEngine', :git => 'https://github.com/shuyangxiaobao/gqbHttpEngine.git',
+    :branch => 'master' , :tag => '0.1.0'
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+#    pod 'geqiangbao-PriHttpEngine', :git => 'https://github.com/shuyangxiaobao/geqiangbaoLib2.git', :branch => 'master' , :tag => '0.1.0'
 
 #source 'https://github.com/shuyangxiaobao/MySpecs.git'
 #pod 'geqiangbaoLib2','~> 0.0.3'
