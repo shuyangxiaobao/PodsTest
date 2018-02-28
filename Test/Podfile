@@ -37,7 +37,7 @@ target 'Test' do
   
 #  pod 'gqbaoHttpEngine', :git => 'https://github.com/shuyangxiaobao/gqbHttpEngine.git', :branch => 'master' , :tag => '1.0.11'
 
-pod 'gqbaoHttpEngine', '~> 1.0.11' 
+pod 'gqbaoHttpEngine', '~> 1.0.12' 
 
 
  end

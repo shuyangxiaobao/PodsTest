@@ -14,22 +14,22 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
-  - gqbaoHttpEngine (1.0.11):
+  - gqbaoHttpEngine (1.0.12):
     - AFNetworking (~> 3.2.0)
-    - gqbaoHttpEngine/CustomView (= 1.0.11)
-    - gqbaoHttpEngine/XML (= 1.0.11)
-  - gqbaoHttpEngine/CustomView (1.0.11):
+    - gqbaoHttpEngine/CustomView (= 1.0.12)
+    - gqbaoHttpEngine/HTTP (= 1.0.12)
+  - gqbaoHttpEngine/CustomView (1.0.12):
     - AFNetworking (~> 3.2.0)
-  - gqbaoHttpEngine/XML (1.0.11):
+  - gqbaoHttpEngine/HTTP (1.0.12):
     - AFNetworking (~> 3.2.0)
 
 DEPENDENCIES:
-  - gqbaoHttpEngine (~> 1.0.11)
+  - gqbaoHttpEngine (~> 1.0.12)
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
-  gqbaoHttpEngine: 8c4ec0fcfec22ab9e4d06ea793d2cf7534923d30
+  gqbaoHttpEngine: 0aae0f37a4cc6b8287a0f8bb46e5c213a22e7056
 
-PODFILE CHECKSUM: e834c25badd6909381de6172084c3f0951a715e9
+PODFILE CHECKSUM: 87e59b4f34ecc669556cac8a88f613aaecf02ea9
 
 COCOAPODS: 1.4.0
